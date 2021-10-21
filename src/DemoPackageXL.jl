@@ -1,5 +1,5 @@
 module DemoPackageXL
 
-print_greeting(io::IO = stdout) = print(io, "Hello, world!")
+print_greeting(io::IO = stdout) = printstyled(io, "Hello, world!"; color=:blue)
 
 end
